@@ -24,7 +24,7 @@ var Greeting = React.createClass({
             <Row>
                 <Col lg={12} className="col-lg-12 text-center app_greeting">
                     <h1>Еженедельный PHP</h1>
-                    <p className="lead">Еженедельная рассыдка новостей мира PHP</p>
+                    <p className="lead">Еженедельная рассылка новостей мира PHP</p>
                 </Col>
             </Row>
         </Grid>
