@@ -22,9 +22,9 @@ var Greeting = React.createClass({
     return (
         <Grid>
             <Row>
-                <Col lg={12} className="col-lg-12 text-center app_greeting">
+                <Col lg={12} className="text-center app_greeting">
                     <h1>Еженедельный PHP</h1>
-                    <p className="lead">Еженедельная рассыдка новостей мира PHP</p>
+                    <p className="lead">PHP-Дайджест новостей из мира PHP</p>
                 </Col>
             </Row>
         </Grid>
