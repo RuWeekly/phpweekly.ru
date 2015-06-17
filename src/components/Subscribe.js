@@ -54,7 +54,7 @@ var Subscribe = React.createClass({
     render: function () {
         return (
             <div className="app_subscribe">
-                <form lg={12} onSubmit={this.handleSubmit} action="http://eepurl.com/bqqj4T" method='GET'>
+                <form onSubmit={this.handleSubmit} action="http://eepurl.com/bqqj4T" method='GET'>
                     <div className="input-group">
                         <Input
                             type='text'
@@ -73,7 +73,7 @@ var Subscribe = React.createClass({
                             className='app_subscribe__submit'
                             bsSize='large'
                             value='Ok'
-                            bsStyle='primary'
+                            bsStyle='warning'
                             />
                     </span>
                     </div>

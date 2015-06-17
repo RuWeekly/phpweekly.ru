@@ -3,7 +3,6 @@
 var React = require('react/addons');
 var ReactTransitionGroup = React.addons.TransitionGroup;
 var Greeting = require('./Greeting');
-var Subscribe = require('./Subscribe');
 
 
 // CSS
@@ -14,9 +13,8 @@ require('../styles/main.less');
 var PhpweeklyApp = React.createClass({
     render: function () {
         return (
-            <div>
+            <div id="headerwrap">
                 <Greeting />
-                <Subscribe />
             </div>
         );
     }
