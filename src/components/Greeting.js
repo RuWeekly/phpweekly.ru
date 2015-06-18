@@ -24,14 +24,16 @@ var Greeting = React.createClass({
     return (
         <Grid>
             <Row>
-                <Col lg={6} className="text-center">
+                <Col lg={6} xsOffset={3} className="text-center app_greeting_logo">
+                    <img classNamr='img-responsive' src="/images/php-logo.png"/>
+                </Col>
+            </Row>
+            <Row>
+                <Col lg={6} xsOffset={3} className="text-center">
                     <h1>Еженедельный дайджест новостей из мира PHP</h1>
                     <Subscribe />
                 </Col>
 
-                <Col lg={6} className="text-center app_greeting_logo">
-                    <img classNamr='img-responsive' src="/images/php-logo.png"/>
-                </Col>
             </Row>
         </Grid>
       );
